@@ -1,0 +1,24 @@
+# ML-HFT requirements
+# Core
+numpy>=1.26
+pandas>=2.2
+
+# JIT compilation (optional but strongly recommended)
+numba>=0.59
+
+# Parquet I/O
+pyarrow>=15.0
+
+# ML models
+scikit-learn>=1.4
+xgboost>=2.0
+lightgbm>=4.3
+
+# Testing
+pytest>=8.0
+
+# Notebook support
+jupyter>=1.0
+ipykernel>=6.0
+matplotlib>=3.8
+seaborn>=0.13
